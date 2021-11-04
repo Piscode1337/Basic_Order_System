@@ -59,7 +59,6 @@ void askInput(double item_price, int item_qty, bool isBundle, int bundleNum)
 
 int main()
 {
-    int options = 0;
     int amount_item_1 = 0, amount_item_2 = 0, amount_item_3 = 0, amount_item_4 = 0, amount_item_5 = 0, amount_itemBundle_1 = 1, amount_itemBundle_2 = 1;
 
     char initBundleResponse;
@@ -70,6 +69,8 @@ int main()
 
     do
     {
+        int options = 0;
+
         printf("--------------------------------------------------------------------------------------------|\n");
         printf("If you buy 3 of the same item, you'll get an 18%% discount on its total price.               |\n");
         printf("If you buy 2 of the same item, you'll get a 15%% discount.                                   |\n");
