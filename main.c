@@ -113,13 +113,13 @@ int main()
                                 printValues(0, amount_itemBundle_2, true, 2);
                             } else {
 
-                                printf("How many [Item A] would you like to buy?\n> ");
+                                printf("How many [Item A] would you like to order?\n> ");
                                 askInput(item_A_price, amount_item_1, false, 0);
                             }
                         }
                     } else {
 
-                        printf("How many [Item A] would you like to buy?\n> ");
+                        printf("How many [Item A] would you like to order?\n> ");
                         askInput(item_A_price, amount_item_1, false, 0);
                     }
                 break;
@@ -145,13 +145,13 @@ int main()
                                 printValues(0, amount_itemBundle_2, true, 2);
                             } else {
 
-                                printf("How many [Item B] would you like to buy?\n> ");
+                                printf("How many [Item B] would you like to order?\n> ");
                                 askInput(item_B_price, amount_item_2, false, 0);
                             }
                         }
                     } else {
 
-                        printf("How many [Item B] would you like to buy?\n> ");
+                        printf("How many [Item B] would you like to order?\n> ");
                         askInput(item_B_price, amount_item_2, false, 0);
                     }
                 break;
@@ -177,13 +177,13 @@ int main()
                                 printValues(0, amount_itemBundle_2, true, 2);
                             } else {
 
-                                printf("How many [Item C] would you like to buy?\n> ");
+                                printf("How many [Item C] would you like to order?\n> ");
                                 askInput(item_C_price, amount_item_3, false, 0);
                             }
                         }
                     } else {
 
-                        printf("How many [Item C] would you like to buy?\n> ");
+                        printf("How many [Item C] would you like to order?\n> ");
                         askInput(item_C_price, amount_item_3, false, 0);
                     }
                 break;
@@ -209,13 +209,13 @@ int main()
                                 printValues(0, amount_itemBundle_2, true, 2);
                             } else {
 
-                                printf("How many [Item D] would you like to buy?\n> ");
+                                printf("How many [Item D] would you like to order?\n> ");
                                 askInput(item_D_price, amount_item_4, false, 0);
                             }
                         }
                     } else {
 
-                        printf("How many [Item D] would you like to buy?\n> ");
+                        printf("How many [Item D] would you like to order?\n> ");
                         askInput(item_D_price, amount_item_4, false, 0);
                     }
                 break;
@@ -241,13 +241,13 @@ int main()
                                 printValues(0, amount_itemBundle_2, true, 2);
                             } else {
 
-                                printf("How many [Item E] would you like to buy?\n> ");
+                                printf("How many [Item E] would you like to order?\n> ");
                                 askInput(item_E_price, amount_item_5, false, 0);
                             }
                         }
                     } else {
 
-                        printf("How many [Item E] would you like to buy?\n> ");
+                        printf("How many [Item E] would you like to order?\n> ");
                         askInput(item_E_price, amount_item_5, false, 0);
                     }
                 break;
