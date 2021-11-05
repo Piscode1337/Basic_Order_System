@@ -24,31 +24,25 @@ void printValues(double itemPrice, int itemAmount, bool isBundle, int bundleNum)
         getDiscount = getTotalAmount * 0.15;
 
         printf("Total Purchase: %.2lf Php (x%d)\nTotal Discount: %.2lf Php (15%%)\nTotal: %.2lf Php", getTotalAmount, itemAmount, getDiscount, getTotalAmount - getDiscount);
-    }
-
-    if (itemAmount == 3 && !isBundle)
+    } else if (itemAmount == 3 && !isBundle)
     {
         getTotalAmount = itemPrice * itemAmount;
         getDiscount = getTotalAmount * 0.18;
 
         printf("Total Purchase: %.2lf Php (x%d)\nTotal Discount: %.2lf Php (18%%)\nTotal: %.2lf Php", getTotalAmount, itemAmount, getDiscount, getTotalAmount - getDiscount);
-    }
-
-    if (isBundle && bundleNum == 1)
+    } else if (isBundle && bundleNum == 1)
     {
         getTotalAmount = (item_A_price * 1) + (item_B_price * 2);
         getDiscount = getTotalAmount * 0.16;
 
         printf("Total Purchase: %.2lf Php (x%d)\nTotal Discount: %.2lf Php (16%%)\nTotal: %.2lf Php", getTotalAmount, itemAmount, getDiscount, getTotalAmount - getDiscount);
-    }
-
-    if (isBundle && bundleNum == 2)
+    } else if (isBundle && bundleNum == 2)
     {
         getTotalAmount = (item_C_price * 1) + (item_A_price * 1) + (item_E_price * 1);
         getDiscount = getTotalAmount * 0.16;
 
         printf("Total Purchase: %.2lf Php (x%d)\nTotal Discount: %.2lf Php (16%%)\nTotal: %.2lf Php", getTotalAmount, itemAmount, getDiscount, getTotalAmount - getDiscount);
-    }
+    } else printf("Total Purchase: %.2lf Php (x%d)\nTotal Discount: N/A\nTotal: %.2lf Php", itemPrice, itemAmount, itemPrice);
 }
 
 void askInput(double item_price, int item_qty, bool isBundle, int bundleNum)
